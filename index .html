@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+    .container
+    {
+      
+position: relative;
+width: 1440px;
+height: 1844px;
+
+background: #F3F3F3;
+    }
+    nav.logo
+    {
+        
+
+left: 0%;
+right: 93.98%;
+top: 28.57%;
+bottom: 5.71%;
+
+/* Main Black */
+
+background: #181717;
+    }
+    nav{
+        
+        position: absolute;
+width: 1120px;
+height: 35px;
+left: calc(50% - 1120px/2);
+top: 102px;
+
+
+
+    }
+    nav ul{
+        float:right;
+        display: flex;
+        list-style: none;
+        
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 25px;
+    }
+    nav ui li{
+        list-style: none;
+        text-decoration:none
+    }
+    nav ul  li a {
+
+
+        
+left: 0%;
+right: -0.8%;
+top: 0%;
+bottom: -25%;
+
+/* Navigation */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 120%;
+/* or 25px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+text-decoration: none;
+
+        
+       
+        
+       
+    }
+    .about
+    {
+        position: absolute;
+        
+width: 480px;
+height: 199px;
+left: calc(50% - 480px/2 - 320px);
+top: 360px;
+
+/* Heading-1 */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+line-height: 97.2%;
+/* or 58px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+
+    }
+    .s2
+    {
+        position: absolute;
+        
+
+width: 575px;
+height: 359px;
+left: calc(50% - 575px/2 - 272.5px);
+top: 591px;
+
+/* Heading-2 */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 117%;
+/* or 37px */
+
+letter-spacing: -0.03em;
+
+/* Main Gray */
+
+color: #606060;
+    }
+    .image2
+    {
+        position: absolute;
+        
+        
+
+width: 421px;
+height: 590px;
+left: calc(50% - 421px/2 + 349.5px);
+top: 360px;
+
+
+    }
+    .t1
+    {
+        position: absolute;
+        
+width: 1120px;
+height: 590px;
+left: 160px;
+top: 360px;
+
+    }
+    .p1
+    {
+        
+
+position: absolute;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 121.5%;
+/* or 22px */
+
+letter-spacing: -0.03em;
+text-decoration-line: underline;
+
+/* Main Black */
+
+color: #181717;
+top:1080px;
+left: calc(50% - 836px/2 - 155px);
+height:54px;
+
+
+    }
+    .p2
+    {
+        position: absolute;
+        
+
+width: 436px;
+height: 54px;
+left: calc(50% - 436px/2 - 155px);
+top: 1086px;
+
+/* Body */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 121.5%;
+/* or 22px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+
+
+
+    }
+    .p3
+    {
+        position: absolute;
+
+width: 213px;
+height: 22px;
+left: calc(50% - 213px/2 - 265.5px);
+top: 1164px;
+
+/* Body */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 121.5%;
+/* identical to box height, or 22px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+
+        
+    }
+    .p4
+    {
+        position: absolute;
+        
+        
+width: 124px;
+height: 20px;
+left: calc(50% - 124px/2 - 498px);
+top: 1261px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 121.5%;
+/* or 22px */
+
+letter-spacing: -0.03em;
+text-decoration-line: underline;
+
+/* Main Black */
+
+color: #181717;
+
+        
+    }
+    .p5
+    {
+        position: absolute;
+    
+
+width: 401px;
+height: 44px;
+left: calc(50% - 401px/2 - 172.5px);
+top: 1258px;
+
+/* Body */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 121.5%;
+/* or 22px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+    }
+    .o1
+    {
+        
+position: absolute;
+width: 1120px;
+height: 2px;
+left: calc(50% - 1120px/2);
+top: 1436px;
+
+background: #181717;
+
+    }
+    .r1
+    {
+        position: absolute;
+width: 347px;
+height: 71px;
+left: calc(50% - 347px/2 - 386.5px);
+top: 1509px;
+
+/* Heading-2 */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 117%;
+/* or 37px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+
+
+    }
+    
+    .e1
+    {
+        
+position: absolute;
+width: 372px;
+height: 37px;
+left: calc(50% - 372px/2 + 295px);
+top: 1516px;
+
+/* Heading-2 */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 117%;
+/* or 37px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+
+    }
+    .f1
+    {
+        position: absolute;
+width: 110px;
+height: 22px;
+left: calc(50% - 110px/2 + 164px);
+top: 1580px;
+
+/* Body */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 121.5%;
+/* identical to box height, or 22px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+
+    }
+    .y1
+    {
+        
+height: 166px;
+left: 160px;
+top: 1436px;
+
+    }
+    .h1
+    {
+        
+
+left: 0%;
+right: 75.82%;
+top: 0%;
+bottom: 0%;
+
+/* Navigation */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 120%;
+/* or 25px */
+
+letter-spacing: -0.03em;
+
+/* Secondary */
+
+color: #2429AF;
+
+    }
+    .h2
+    {
+        position: absolute;
+        
+left: 70.59%;
+right: 20.64%;
+top: 0%;
+bottom: 0%;
+
+/* Navigation */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 120%;
+/* or 25px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+
+    }
+    .h3
+    {
+        position: absolute;
+        
+left: 82.2%;
+right: 9.03%;
+top: 0%;
+bottom: 0%;
+
+/* Navigation */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 120%;
+/* or 25px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+    }
+    .h4
+    {
+        position: absolute;
+        
+left: 93.8%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Navigation */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 120%;
+/* or 25px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+
+    }.h5
+    {
+        position: absolute;
+        width: 1120px;
+        height: 20px;
+        left: 160px;
+        top: 1772px;
+
+    }
+    .j1
+    {
+        
+
+        
+width: 623px;
+height: 216px;
+left: 160px;
+top: 1086px;
+
+
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <p>Portfolio-Work Page</p>
+        </header>
+        <nav >
+            <div class="logo"><h2>ma.</h2></div>
+            <ul>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Playground</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        
+        
+            <h4 class="about">Hi I’m Ranu Birle, 3D artist & sculptor.</h4>
+        
+        
+            <p class="s2">My work is mainly focused on third-dimension modeling, texturing and rendering. I like exploring the creatures with a touch of dark surrealism for characters and production.<br>
+
+                Now I’m an interactive media design student in Istanbul ⏤ currently freelancing and seeking internship opportunities.</p>
+            
+            
+                <img src="data:image/jpeg;base64,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" class="image2">
+              
+              
+              
+              <section class="j1">
+              <p class="p1">Main Software </p>
+              <p class="p2">Pixologic ZBrush, Autodesk Maya, The Foundry Mari, Arnold Renderer, Blender, Forger</p>
+              <p class="p3">Adobe CC, Figma, Ableton</p>
+              <p class="p4">Main Skills</p>
+              <p class="p5">Organic and Polygonal Modeling, UV Layout, Texturing, Retopology, Ilustration, Sound Design</p>
+              </section>
+              <seprator class="o1">
+                
+              </seprator>
+              
+                <p class="r1">I am thrilled to answer to your next project </p>
+            
+                <p class="e1">ranubirle93@gmail.com</p>
+                <p class="f1">View Resume</p>
+
+              
+              <footer class="h5">
+              
+              <p class="h1">Ranu Birle ⏤ 2020</p>
+            
+               <p class="h2">Artstation</p>
+            
+               <p class="h3">Linkedin</p>
+            
+               <p class="h4">Twitter</p>
+            
+               </footer>
+            
+
+    
+            </div>
+    
+</body>
+</html>
